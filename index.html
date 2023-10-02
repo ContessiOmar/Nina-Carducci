@@ -194,15 +194,44 @@
 					<img src="./assets/images/camera.webp" alt="camera">
 				</div>
 			</div>
+			<div class="info">
+
+			</div>
 		</div>
 	</footer>
 
-
+   
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+
+	<script type='application/ld+json'> 
+		{
+		"@context": "http://www.schema.org",
+		"@type": "ArtGallery",
+		"name": "Nina Carducci",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": " 33200",
+			"addressCountry": "France"
+		},
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"telephone": "05 56 67 78 89"
+		},
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": {
+			"@type": "DayOfWeek",
+			"name": "Lundi au Vendredi de 10h à 19h"
+			}
+		}
+	}
+</script>
 </body>
 
 </html>
