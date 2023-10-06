@@ -104,7 +104,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: black;
+	background-color: #E5975F;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -127,7 +127,6 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
-	aspect-ratio: 1;
 }
 .mg-prev, .mg-next {
 	width: 30px;
@@ -357,3 +356,8 @@ input[type="submit"] {
 	}
 }
 
+@media (min-width: 768px) {
+	.gallery-item [
+		aspect-ratio: 1;
+	]
+}
